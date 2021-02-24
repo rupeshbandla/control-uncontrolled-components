@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AxiosPut from "./components/Axios/AxiosPut";
+// import ContainerComponent from './components/ContainerComponent/ContainerComponent';
+// import CounterOne from "./components/hooks/CounterOne";
+// import CounterTwo from "./components/hooks/CounterTwo";
+// import UseEffect from "./components/UseEffect/UseEffect";
+// import Controlled from './components/Controlled/Controlled';
+// import Uncontrolled from './components/Uncontrolled/Uncontrolled';
+// import ButtonNameChange from './components/ButtonNameChange/ButtonNameChange';
+// import ButtonToggle from './components/ButtonToggle/ButtonToggle';
+// import CalculatorDemo from './components/CalculatorDemo/CalculatorDemo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <CalculatorDemo/> */}
+      {/* <ButtonNameChange/> */}
+      {/* <Controlled/>
+     <Uncontrolled/> */}
+      {/* <ContainerComponent/> */}
+      {/* <CounterTwo />
+      <CounterOne /> */}
+      {/* <UseEffect/> */}
+      <AxiosPut/>
     </div>
   );
 }

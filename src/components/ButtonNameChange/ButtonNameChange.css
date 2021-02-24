@@ -1,0 +1,19 @@
+.mainContainer,
+input,
+select,
+button {
+  padding: 5px;
+  margin: 5px;
+}
+
+.reset {
+  background-color: red;
+  color: white;
+}
+.submit {
+  background-color: green;
+  color: white;
+}
+p {
+  color: red;
+}
